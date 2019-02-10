@@ -9,6 +9,17 @@ package service.base;
  *
  * @author Nuntuch Thongyoo
  */
-public interface StackGeneric {
+public interface StackGeneric <Obj>{
+//    public abstract int OrderToEntryOutTheRoom();
+    
+    public void push(Obj obj);
+
+   public Obj pop();
+
+   public Obj peek();
+
+   public boolean isEmpty();
+    
+    
     
 }
