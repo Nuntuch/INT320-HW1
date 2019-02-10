@@ -5,6 +5,8 @@
  */
 package main;
 //import javax.inject.Inject;
+import service.QueueGenericImpl;
+import service.StackGenericImpl;
 import service.base.QueueGeneric;
 import service.base.StackGeneric;
 
@@ -14,8 +16,14 @@ import service.base.StackGeneric;
  */
 //@Inject
 
-public class Main implements QueueGeneric,StackGeneric{
+public class Main {
     public static void main(String[] args) {
+      
+        StackGeneric stackGenericObj =   new StackGenericImpl();
+        QueueGeneric queueGenericObj = new QueueGenericImpl();
+                
+        
+        
         
     }
 }
