@@ -10,16 +10,17 @@ package service.base;
  * @author Nuntuch Thongyoo
  * @param <Obj>
  */
-public interface QueueGeneric<Obj> {
+public interface Queue<ObjG> {
 
     public boolean isEmpty();
 
-    public Obj getFront();
+    public ObjG getFront();
 
-    public Obj dequeue();
+    public ObjG dequeue();
 
-    public void enqueue(Obj obj);
+    public void enqueue(ObjG obj);//เพิ่มท้าย
 
     public void clear();
 
+    public int size();
 }
