@@ -29,3 +29,5 @@
 hs_err_pid*
 
 # End of https://www.gitignore.io/api/java
+/60130500126-Sec4-Assignment/dist/
+/60130500126-Sec4-Assignment/build/
