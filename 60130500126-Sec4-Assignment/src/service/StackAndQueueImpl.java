@@ -28,7 +28,7 @@ public class StackAndQueueImpl<ObjG> implements Stack<ObjG>, Queue<ObjG> {
 
     @Override
     public int size() {
-        
+
         return numlocal;
     }
 
@@ -54,7 +54,7 @@ public class StackAndQueueImpl<ObjG> implements Stack<ObjG>, Queue<ObjG> {
             }
 
         }
-        System.out.println("Numlocal : " + numlocal+" Obj :  "+obj);
+        System.out.println("Numlocal : " + numlocal + " Obj :  " + obj);
         this.array[numlocal] = obj;
         this.numlocal++;
 
@@ -130,7 +130,7 @@ public class StackAndQueueImpl<ObjG> implements Stack<ObjG>, Queue<ObjG> {
             }
 
         }
-        System.out.println("Numlocal : " + numlocal+" Obj :  "+obj);
+        System.out.println("Numlocal : " + numlocal + " Obj :  " + obj);
 //        System.out.println("Numlocal : " + numlocal);
         this.array[numlocal] = obj;
         this.numlocal++;
