@@ -28,8 +28,7 @@ public class StackAndQueueImpl<ObjG> implements Stack<ObjG>, Queue<ObjG> {
 
     @Override
     public int size() {
-//        int i = numlocal+1;
-//        return i;
+        
         return numlocal;
     }
 
@@ -59,22 +58,6 @@ public class StackAndQueueImpl<ObjG> implements Stack<ObjG>, Queue<ObjG> {
         this.array[numlocal] = obj;
         this.numlocal++;
 
-//        if (array.length < numlocal) {
-//            ObjG[] arraytemp = (ObjG[]) (new Object[numlocal + 15]);
-//            for (int i = 0; i < numlocal; i++) {
-//                arraytemp[i] = this.array[i];
-//
-//            }
-//
-//            for (int i = 0; i < arraytemp.length; i++) {
-//                this.array[i] = arraytemp[i];
-//
-//            }
-//
-//        }
-//
-//        this.array[numlocal] = obj;
-//        this.numlocal++;
     }
 
     @Override
