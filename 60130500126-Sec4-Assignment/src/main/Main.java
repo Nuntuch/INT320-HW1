@@ -11,9 +11,9 @@ import service.StackAndQueueImpl;
 public class Main {
 
     public static void main(String[] args) {
-
-//        TestStack();
-//        TestQueue();
+        
+        TestStack(); 
+        TestQueue();
 
     }
 
